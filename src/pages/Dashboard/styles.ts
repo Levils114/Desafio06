@@ -49,6 +49,7 @@ export const Card = styled.div`
 
 export const TableContainer = styled.section`
   margin-top: 64px;
+  max-width: 1500px;
 
   table {
     width: 100%;
@@ -70,6 +71,7 @@ export const TableContainer = styled.section`
       font-size: 16px;
       font-weight: normal;
       color: #969cb3;
+      max-width: 70px;
 
       &.title {
         color: #363f5f;
